@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff5f7" />
+  <meta name="description" content="A little corner of the internet made of soft colors, lovely moments, and a little magic." />
+  <title>Siti Amanda — A Little Lovely World</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="is-loading">
+  <div class="preloader" id="preloader" role="status" aria-label="Memuat website">
+    <div class="loader-flower">✿</div>
+    <p class="loader-brand">for <em>Siti Amanda</em></p>
+    <div class="loader-track"><span></span></div>
+    <small>preparing a little magic...</small>
+  </div>
+  <div class="scroll-progress" aria-hidden="true"><span id="progressBar"></span></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="Veloura home"><span class="brand-mark">♡</span><span>siti amanda<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="nav">
+      <a href="#story">Our little world</a>
+      <a href="#moments">Little moments</a>
+      <a href="#note">A tiny note</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Ganti tema" title="Ganti tema">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-pad" aria-labelledby="heroTitle">
+      <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+      <div class="hero-copy">
+        <p class="eyebrow reveal"><span class="eyebrow-line"></span> A LITTLE CORNER OF THE INTERNET</p>
+        <h1 id="heroTitle" class="reveal">For <span class="script-word">Siti Amanda,</span><br>who makes <em>ordinary</em><br>feel like magic.</h1>
+        <p class="hero-desc reveal">A little corner made just for Siti Amanda — for pretty thoughts, warm memories, and all the tiny things that make life feel lovely.</p>
+        <div class="hero-actions reveal">
+          <a class="button button-primary magnetic" href="#story">Explore the feeling <span>↗</span></a>
+          <button class="button button-quiet" id="sprinkleButton"><span class="sparkle-icon">✦</span> Sprinkle some magic</button>
+        </div>
+        <div class="hero-foot reveal"><span class="tiny-heart">♥</span><span>made with a little extra love</span><span class="foot-dash"></span><span>scroll to wander</span><span class="scroll-arrow">↓</span></div>
+      </div>
+      <div class="hero-art reveal" id="heroArt">
+        <div class="art-halo"></div>
+        <div class="art-card art-card-back"><span class="mini-sticker">✿</span><span class="back-script">stay<br>soft.</span></div>
+        <div class="art-photo">
+          <img src="https://files.catbox.moe/nt5jlt.webp" alt="Foto profil Siti Amanda" />
+          <div class="photo-wash"></div>
+          <span class="photo-label">a little world for siti amanda</span>
+        </div>
+        <div class="floating-note note-top"><span>✧</span> romanticize<br>your life</div>
+        <div class="floating-note note-bottom"><span class="note-heart">♡</span><div><b>Siti, you are blooming</b><small>at your own pace</small></div></div>
+        <span class="art-spark spark-a">✳</span><span class="art-spark spark-b">✦</span><span class="art-spark spark-c">✧</span>
+      </div>
+      <div class="hero-bottomline"><span>01 / A SOFTER KIND OF STORY</span><span>EST. WITH LOVE — ALWAYS</span></div>
+    </section>
+
+    <section class="ticker" aria-label="A gentle reminder"><div class="ticker-track"><span>be gentle with yourself</span><b>✿</b><span>you deserve good things</span><b>♡</b><span>take up space</span><b>✧</b><span>be gentle with yourself</span><b>✿</b><span>you deserve good things</span><b>♡</b><span>take up space</span><b>✧</b></div></section>
+
+    <section class="story section-pad" id="story">
+      <div class="section-heading reveal"><p class="eyebrow"><span class="eyebrow-line"></span> A NOTE TO YOUR HEART</p><h2>Life looks prettier<br><em>when you notice it.</em></h2></div>
+      <div class="story-grid">
+        <div class="story-visual reveal">
+          <div class="story-image"><img src="https://files.catbox.moe/v4pnrl.webp" alt="Foto kenangan Siti Amanda" loading="lazy"></div>
+          <div class="scribble">♡</div><div class="image-caption">collecting moments, not things.</div>
+        </div>
+        <div class="story-content reveal">
+          <span class="number-label">01 — THE LITTLE PHILOSOPHY</span>
+          <p class="story-lead">You don't need a special occasion to make a day feel special.</p>
+          <p>Put on your favorite song. Buy yourself flowers just because. Take the longer way home when the sky is pretty. Keep the tiny things that make your heart do that little happy dance.</p>
+          <p>This is your reminder to make room for softness in a world that keeps asking you to hurry.</p>
+          <button class="text-link" id="affirmationButton">Give me a little reminder <span>↗</span></button>
+          <p class="affirmation" id="affirmation" aria-live="polite">“You are allowed to grow slowly.”</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="moments section-pad" id="moments">
+      <div class="section-heading moments-heading reveal"><div><p class="eyebrow"><span class="eyebrow-line"></span> THE ART OF NOTICING</p><h2>Little moments,<br><em>lovingly kept.</em></h2></div><p class="heading-aside">A tiny gallery of things<br>that feel like a deep breath.</p></div>
+      <div class="moments-grid">
+        <article class="moment-card moment-large reveal" tabindex="0">
+          <div class="moment-image"><img src="https://files.catbox.moe/py1fmr.webp" alt="Momen spesial Siti Amanda" loading="lazy"><span class="moment-number">01</span><span class="moment-icon">↗</span></div>
+          <div class="moment-info"><div><h3>Slow mornings</h3><p>sunlight, silence, and something warm.</p></div><span class="tag">SLOW LIVING</span></div>
+        </article>
+        <article class="moment-card reveal" tabindex="0">
+          <div class="moment-image"><img src="https://files.catbox.moe/tkmcsg.webp" alt="Foto pilihan Siti Amanda" loading="lazy"><span class="moment-number">02</span><span class="moment-icon">↗</span></div>
+          <div class="moment-info"><div><h3>Golden hour</h3><p>the sky showing off, again.</p></div><span class="tag">LITTLE JOYS</span></div>
+        </article>
+        <article class="moment-card reveal" tabindex="0">
+          <div class="moment-image"><img src="https://files.catbox.moe/v4pnrl.webp" alt="Foto kenangan Siti Amanda" loading="lazy"><span class="moment-number">03</span><span class="moment-icon">↗</span></div>
+          <div class="moment-info"><div><h3>Quiet chapters</h3><p>a book, a drink, a world of your own.</p></div><span class="tag">ME TIME</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-decoration">“</div>
+      <p class="quote-kicker reveal">A THOUGHT TO KEEP</p>
+      <blockquote class="reveal">“You were never meant to bloom<br>in someone else’s season.”</blockquote>
+      <p class="quote-sign reveal">a gentle reminder, from this little corner ♡</p>
+      <div class="quote-flower flower-one">✿</div><div class="quote-flower flower-two">✽</div>
+    </section>
+
+    <section class="note-section section-pad" id="note">
+      <div class="note-card reveal">
+        <div class="note-decoration note-left">✧</div><div class="note-decoration note-right">♡</div>
+        <p class="eyebrow"><span class="eyebrow-line"></span> JUST BETWEEN US</p>
+        <h2>One tiny note<br><em>for you.</em></h2>
+        <p class="note-intro">Because sometimes, the heart needs to hear the soft things out loud.</p>
+        <button class="button button-primary magnetic" id="openLetter">Open your little letter <span>♡</span></button>
+        <span class="note-foot">psst… it’s a good one.</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#top"><span class="brand-mark">♡</span><span>siti amanda<span class="brand-dot">.</span></span></a>
+    <p>For the soft-hearted and the daydreamers.</p>
+    <a href="#top" class="back-top">BACK TO TOP ↑</a>
+    <div class="footer-bottom"><span>© 2026 — MADE FOR SITI AMANDA</span><span>MADE OF LITTLE THINGS & LOTS OF HEART</span><span>♡</span></div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="letter-overlay" id="letterOverlay" aria-hidden="true">
+    <div class="letter-modal" role="dialog" aria-modal="true" aria-labelledby="letterTitle">
+      <button class="modal-close" id="closeLetter" aria-label="Tutup surat">×</button>
+      <span class="letter-flower">✿</span>
+      <p class="eyebrow">A LITTLE REMINDER</p>
+      <h2 id="letterTitle">Dear you,</h2>
+      <div class="letter-copy"><p>I hope you remember that you don't have to be perfect to be loved, and you don't have to have everything figured out to be doing just fine.</p><p>Some days you'll shine. Some days you'll simply get through. Both are worthy days, and both versions of you deserve kindness.</p><p>Keep your softness. Keep your silly little dreams. Keep becoming the person you feel safe being.</p></div>
+      <p class="letter-sign">with a little love, always ♡</p>
+      <button class="button button-primary" id="letterHeart">Send a heart back <span>♡</span></button>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
